@@ -1,0 +1,42 @@
+body {
+  width: 100%;
+  *zoom: 1; }
+  body:before, body:after {
+    content: "";
+    display: table; }
+  body:after {
+    clear: both; }
+
+.responsiveDesign {
+  width: 800px;
+  margin: auto; }
+  @media screen and (max-width: 800px) {
+    .responsiveDesign {
+      display: inline;
+      float: left;
+      width: 97.91667%;
+      margin: 0 1.04167%; } }
+
+.border {
+  border: 1px solid red; }
+
+.navBar {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  height: 100px; }
+
+.mainBody {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  height: 100px; }
+
+.footer {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+  height: 100px; }

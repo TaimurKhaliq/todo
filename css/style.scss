@@ -1,0 +1,32 @@
+@import "scss/grid.scss";
+$total-width: 100%;
+
+.responsiveDesign{
+	width: 800px;
+	margin: auto;
+	@media screen and (max-width: 800px){
+		@include column(12);
+	}
+}
+
+.border{
+	border: 1px solid red;
+}
+
+.navBar{
+	@include column(12);
+	height: 100px;
+}
+
+.mainBody{
+	@include column(12);
+	height: 100px;
+}
+
+.footer{
+	@include column(12);
+	height: 100px;
+}
+
+
+
